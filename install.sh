@@ -31,16 +31,6 @@ export NVM_DIR="$HOME/.nvm"
 nvm install v18.20.2
 node -v
 
-# Install Nginx
-echo "
-################################################
-#                INSTALL NGINX                 #
-################################################
-"
-sudo apt install -y nginx
-sudo systemctl status nginx
-clear
-
 # Install PM2
 echo "
 ################################################
